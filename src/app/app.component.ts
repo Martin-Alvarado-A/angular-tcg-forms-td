@@ -18,6 +18,9 @@ export class AppComponent {
   // }
 
   onSubmit() {
-    console.log(`🔎 | AppComponent | onSubmit > Submitted!`, this.signupForm);
+    console.log(
+      `🔎 | AppComponent | onSubmit > Submitted!`,
+      this.signupForm.form
+    );
   }
 }
